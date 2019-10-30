@@ -4,7 +4,7 @@ describe 'Puppy class' do
     arity = Puppy.instance_method(:initialize).arity
     if arity == 1
       # assuming you want to instantiate a puppy with a hash
-      Puppy.new(name: "brad", breed: "black lab", age: 2)
+      Puppy.new(name: "brad", breed: "black lab", months_old: 2)
     elsif arity == 3
       # assuming you want to instantiate a puppy with three separate args
       Puppy.new("brad", "black lab", 2)
